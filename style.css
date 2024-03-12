@@ -1,0 +1,208 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    background-color: #B6BB72;
+    width: 100%;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+.cabina {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #b7babb;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+
+}
+.cabina img{
+    margin-right: 15px;
+    margin-left: 15 px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #521C02;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 22px;
+    color: #442d26;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #B6BB72;
+    margin: 10px 0px 10px 0px;
+}
+
+.caja {
+    background-color: #B6BB72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.caja img {
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.caja p {
+    font-size: 18px;
+}
+
+.contenedor2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #B6BB72;
+    margin: 10px 0px 10px 0px;
+}
+
+.gift {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mision {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #B6BB72;
+    align-items: center;
+    margin: 20px 10px 20px 0px;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+.vision{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #B6BB72;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+.textomision{
+    margin-left: 15px;
+}
+.titulomision{
+    justify-content: center;
+    text-align: center;
+}
+
+.caja3{
+display: flex;
+flex-direction: row;
+width: 100;
+background-color:#b7babb;
+height: 80%;
+
+}
+
+.caja3 img{
+    margin: 0px 15px 0px 15px;
+}
+
+.videoprincipal{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.carrusel{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.servicios{
+    display: flex;
+    font-style:oblique;
+    flex-direction: row;
+    background-color: #b7babb;
+    justify-content: space-between;
+
+}
+.nav{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;  
+    justify-content: center;
+}
+
+.footer{
+    background-color: #B6BB72;
+    padding: 10px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.tituloindex{
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.textonosotros{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.logoprincipal{
+    max-width: 7%;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: left;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #442d26;
+    
+}
+.logofacebook{
+    max-width: 4%;
+}
+.logowhatsapp{
+    max-width: 4%;
+}
+.logo-instagram{
+    max-width: 4%;
+}
